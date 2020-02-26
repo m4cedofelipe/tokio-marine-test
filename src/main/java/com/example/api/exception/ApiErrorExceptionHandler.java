@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @ControllerAdvice
-public class CustomGenericExceptionHandler extends ResponseEntityExceptionHandler {
+public class ApiErrorExceptionHandler extends ResponseEntityExceptionHandler {
 
 
     @Override
